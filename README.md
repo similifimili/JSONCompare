@@ -27,8 +27,8 @@ A simple desktop GUI application built with Python that allows you to compare tw
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/json-compare-tool.git
-cd json-compare-tool
+git clone https://github.com/yourusername/text-compare-tool.git
+cd text-compare-tool
 ```
 
 ### 2. Install Python dependencies
@@ -72,7 +72,7 @@ The GUI will open with two large input fields. Paste your JSON objects and click
 ## 📂 Project Structure
 
 ```
-json-compare-tool/
+text-compare-tool/
 ├── text_compare_app.py     # Main Python GUI App
 └── README.md               # Setup & usage instructions
 ```
