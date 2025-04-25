@@ -3,16 +3,16 @@ Certainly! Here's the updated `README.md` file with the correct indentation:
 ### 📘 `README.md`
 
 ```markdown
-# 🧾 JSON Compare Tool
+# 🧾 Text Compare Tool
 
-A simple desktop GUI application built with Python that allows you to compare two JSON objects. It highlights the differences or confirms if both JSONs match exactly.
+A simple desktop GUI application built with Python that allows you to compare two Text objects. It highlights the differences or confirms if both Txts match exactly.
 
 ---
 
 ## 📦 Features
 
 - Clean and simple interface using `tkinter`
-- Validates both JSON inputs
+- Validates both Text inputs
 - Compares deeply nested objects
 - Highlights differences in the input fields
 - Shows a line-by-line diff using unified diff style
@@ -40,7 +40,7 @@ Only the standard Python library is used — no extra installation required for 
 ### 3. Run the application
 
 ```bash
-python json_compare_app.py
+python text_compare_app.py
 ```
 
 The GUI will open with two large input fields. Paste your JSON objects and click **Compare JSON** to see the results.
@@ -73,7 +73,7 @@ The GUI will open with two large input fields. Paste your JSON objects and click
 
 ```
 json-compare-tool/
-├── json_compare_app.py     # Main Python GUI App
+├── text_compare_app.py     # Main Python GUI App
 └── README.md               # Setup & usage instructions
 ```
 
@@ -95,7 +95,7 @@ This project is licensed under the MIT License. Use it freely.
 Let me know if you'd like:
 - A dark mode toggle?
 - A web version using Flask or Streamlit?
-- Save/load JSON from files?
+- Save/load Text from files?
 
 Happy to build it further with you!
 
