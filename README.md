@@ -1,3 +1,8 @@
+Certainly! Here's the updated `README.md` file with the correct indentation:
+
+### 📘 `README.md`
+
+```markdown
 # 🧾 JSON Compare Tool
 
 A simple desktop GUI application built with Python that allows you to compare two JSON objects. It highlights the differences or confirms if both JSONs match exactly.
@@ -18,40 +23,72 @@ A simple desktop GUI application built with Python that allows you to compare tw
 ---
 
 ## 🚀 Getting Started
-### **1. Clone the repository**
+
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/json-compare-tool.git
 cd json-compare-tool
+```
 
-### **2. Install Python dependencies**
+### 2. Install Python dependencies
+
 Only the standard Python library is used — no extra installation required for dependencies.
 
-✅ Requires: Python 3.7+
+✅ Requires: `Python 3.7+`
 
-### **3. Run the application**
+### 3. Run the application
 
-The GUI will open with two large input fields. Paste your JSON objects and click Compare JSON to see the results.
+```bash
+python json_compare_app.py
+```
 
-🧪 Example
-Input A:
+The GUI will open with two large input fields. Paste your JSON objects and click **Compare JSON** to see the results.
 
+---
 
-Input B:
+## 🧪 Example
 
+**Input A:**
+```json
+{
+  "name": "Alice",
+  "age": 30
+}
+```
+
+**Input B:**
+```json
+{
+  "name": "Alice",
+  "age": 31
+}
+```
 
 ✅ Result: The app will show the exact difference in age between the two JSONs and highlight the differences in the input fields.
 
-📂 Project Structure
+---
+
+## 📂 Project Structure
+
+```
 json-compare-tool/
 ├── json_compare_app.py     # Main Python GUI App
 └── README.md               # Setup & usage instructions
-🤝 Contributions
+```
+
+---
+
+## 🤝 Contributions
+
 Feel free to open issues or submit PRs if you'd like to improve the app — support themes, dark mode, or web version are welcome ideas!
 
-### 🛡️ License
-This project is licensed under the MIT License. Use it freely.
+---
 
+## 🛡️ License
+
+This project is licensed under the MIT License. Use it freely.
+```
 
 ---
 
@@ -62,4 +99,5 @@ Let me know if you'd like:
 
 Happy to build it further with you!
 
-### Buy me a coffee if you like it - https://www.paypal.com/paypalme/pramij
+Buy me a coffee - https://www.paypal.com/paypalme/pramij
+```
