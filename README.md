@@ -1,5 +1,3 @@
-Certainly! Here's the updated `README.md` file with the correct indentation:
-
 ### 📘 `README.md`
 
 ```markdown
@@ -89,13 +87,6 @@ Feel free to open issues or submit PRs if you'd like to improve the app — supp
 
 This project is licensed under the MIT License. Use it freely.
 ```
-
----
-
-Let me know if you'd like:
-- A dark mode toggle?
-- A web version using Flask or Streamlit?
-- Save/load Text from files?
 
 Happy to build it further with you!
 
